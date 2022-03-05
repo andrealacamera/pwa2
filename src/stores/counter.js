@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { defineSSRCustomElement } from 'vue'
 
 export const useCounterStore = defineStore({
   id: 'counter',
@@ -11,6 +12,9 @@ export const useCounterStore = defineStore({
   actions: {
     increment() {
       this.counter++
+    },
+    decrement() {
+      this.counter--
     }
   }
 })

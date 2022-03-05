@@ -1,29 +1,11 @@
 # pwa2
 
-This template should help get you started developing with Vue 3 in Vite.
+**This is the second project about PWA.**
 
-## Recommended IDE Setup
+Packages: 
+- [Vite](https://vitejs.dev/) + [Vue 3](https://vuejs.org/)
+- [Vue Router](https://router.vuejs.org/) + [Pinia](https://pinia.vuejs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vite-plugin-PWA](https://vite-plugin-pwa.netlify.app/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### 2022-03-05
