@@ -15,7 +15,7 @@ import ReloadPrompt from '@/components/ReloadPrompt.vue';
         <nav class="flex justify-around">
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
-          <RouterLink to="/second">Second</RouterLink>
+          <RouterLink to="/counter">Counter</RouterLink>
         </nav>
       </div>
     </header>
