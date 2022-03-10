@@ -1,14 +1,14 @@
-<script setup>
-defineProps({
+<script setup lang="ts">
+defineProps<{
   msg: {
     type: String,
     required: true
   }
-})
+}>()
 </script>
 
 <template>
-  <div class="greetings">
+  <div>
     <h1 class="text-3xl text-blue-800">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
@@ -17,7 +17,3 @@ defineProps({
     </h3>
   </div>
 </template>
-
-<style scoped>
-
-</style>

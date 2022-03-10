@@ -39,7 +39,6 @@ const vitePWAOptions = {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.BASE_URL || '/pwa2/',
   plugins: [
     vue(),
     VitePWA(vitePWAOptions)
