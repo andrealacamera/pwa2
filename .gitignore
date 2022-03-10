@@ -6,3 +6,5 @@ cypress/screenshots
 cypress/videos
 
 .env
+.vscode/
+.gitignore
