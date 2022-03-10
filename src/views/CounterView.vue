@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { useCounterStore } from '@/stores/counter';
 
 export default {
@@ -11,7 +11,6 @@ export default {
 
   }
 }
-
 </script>
 
 

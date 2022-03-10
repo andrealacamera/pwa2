@@ -4,6 +4,7 @@
 
 Packages: 
 - [Vite](https://vitejs.dev/) + [Vue 3](https://vuejs.org/)
+- TypeScript application
 - [TailwindCSS](https://tailwindcss.com/)
 - [Vue Router](https://router.vuejs.org/) 
 - [Pinia](https://pinia.vuejs.org/)

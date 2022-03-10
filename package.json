@@ -2,8 +2,8 @@
   "name": "pwa2",
   "version": "0.1.1",
   "scripts": {
-    "dev": "vite --host",
-    "buildold": "vite build",    
+    "dev": "vite",
+    "build-js": "vite build",    
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview --port 5050"
   },
