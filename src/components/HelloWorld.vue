@@ -1,9 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  msg: {
-    type: String,
-    required: true
-  }
+  msg: string
 }>()
 </script>
 

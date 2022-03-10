@@ -1,16 +1,6 @@
-<script lang="ts">
+<script lang="ts" setup>
 import { useCounterStore } from '@/stores/counter';
-
-export default {
-  setup() {
-    const counter = useCounterStore();
-    return { counter }
-  },
-  mounted() {
-    console.log(this.counter);
-
-  }
-}
+let counter = useCounterStore();
 </script>
 
 
